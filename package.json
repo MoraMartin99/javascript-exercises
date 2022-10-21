@@ -1,34 +1,22 @@
 {
   "name": "javascript-exercises",
   "version": "1.0.0",
-  "description": "These are a series of javascript exercises intended to be used alongside the curriculum at 'The Odin Project'  They start off nice and easy, but get more involved as you progress through them.",
+  "description": "These JavaScript exercises are intended to complement the JavaScript content on The Odin Project (TOP). They should only be done when instructed during the course of the curriculum.",
   "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheOdinProject/javascript-exercises.git"
+    "url": "git+https://github.com/MoraMartin99/javascript-exercises.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TheOdinProject/javascript-exercises/issues"
+    "url": "https://github.com/MoraMartin99/javascript-exercises/issues"
   },
-  "homepage": "https://github.com/TheOdinProject/javascript-exercises#readme",
+  "homepage": "https://github.com/MoraMartin99/javascript-exercises#readme",
   "devDependencies": {
-    "eslint": "^7.26.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.22.1",
-    "jest": "^26.6.3",
-    "jest-cli": "^26.6.3"
-  },
-  "scripts": {
-    "test": "jest"
-  },
-  "eslintConfig": {
-    "root": true
-  },
-  "jest": {
-    "testPathIgnorePatterns": [
-      "generator-exercise/"
-    ]
+    "jest": "^29.2.1"
   }
 }
